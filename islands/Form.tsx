@@ -13,7 +13,6 @@ export function Form(props: JSX.HTMLAttributes<HTMLFormElement>) {
             aria-describedby="emailHelp"
             placeholder="Enter your prompt"
           />
-
           <button
             type="button"
             data-te-ripple-init

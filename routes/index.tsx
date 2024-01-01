@@ -1,5 +1,5 @@
 import { useSignal } from "@preact/signals";
-import { Form } from "../components/Form.tsx";
+import { Form } from "../islands/Form.tsx";
 import { Chatbox } from "../islands/Chatbox.tsx";
 
 export default function Home() {

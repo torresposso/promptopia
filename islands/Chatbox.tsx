@@ -1,4 +1,4 @@
-import { Form } from "../components/Form.tsx";
+import { Form } from "./Form.tsx";
 
 export function Chatbox() {
   return (
@@ -18,7 +18,7 @@ export function Chatbox() {
           </div>
         </div>
       </nav>
-      <div class="bg-gradient-to-r from-blue-900 via-blue-600  to-blue-500 -mb-5 lg:-mb-8 z-10">
+      <div class="bg-gradient-to-r from-blue-900 via-blue-600  to-blue-500 -mb-5 z-10">
         <p class="text-sm ml-4 pt-1 text-white">Online</p>
       </div>
       <div class="bg-gradient-to-r from-blue-900 via-blue-600  to-blue-500 ">
@@ -31,128 +31,6 @@ export function Chatbox() {
         id="messages"
         class="flex flex-grow flex-col space-y-4 p-3 overflow-y-auto scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 scrolling-touch"
       >
-        <div class="chat-message">
-          <div class="flex items-end">
-            <div class="flex flex-col space-y-2  max-w-xs mx-2 order-2 items-start">
-              <div>
-                <span class="text-sm leading-tight px-4 py-2 rounded-lg inline-block rounded-bl-none bg-gradient-to-bl from-sky-100 via-sky-100 to-sky-50 border border-sky-200 text-slate-600">
-                  Can be verified on any platform using docker
-                </span>
-              </div>
-            </div>
-            <img
-              src="https://images.unsplash.com/photo-1549078642-b2ba4bda0cdb?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=3&amp;w=144&amp;h=144"
-              alt="My profile"
-              class="w-6 h-6 rounded-full order-1"
-            />
-          </div>
-        </div>
-        <div class="chat-message">
-          <div class="flex items-end justify-end">
-            <div class="flex flex-col space-y-2  max-w-xs mx-2 order-1 items-end">
-              <div class="px-4 py-2 rounded-lg flex flex-col rounded-br-none border border-sky-200 bg-gradient-to-br from-sky-200  via-sky-200  to-sky-100 text-slate-600">
-                <span class="leading-tight text-sm">
-                  Your error message says permission denied, npm global installs
-                  must be given root privileges.
-                </span>
-              </div>
-            </div>
-
-            <img
-              src="https://images.unsplash.com/photo-1590031905470-a1a1feacbb0b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=3&amp;w=144&amp;h=144"
-              alt="My profile"
-              class="w-6 h-6 rounded-full order-2"
-            />
-          </div>
-        </div>
-        <div class="chat-message">
-          <div class="flex items-end">
-            <div class="flex flex-col space-y-2  max-w-xs mx-2 order-2 items-start">
-              <div>
-                <span class="text-sm leading-tight px-4 py-2 rounded-lg inline-block rounded-bl-none bg-gradient-to-bl from-sky-100 via-sky-100 to-sky-50 border border-sky-200 text-slate-600">
-                  Can be verified on any platform using docker
-                </span>
-              </div>
-            </div>
-            <img
-              src="https://images.unsplash.com/photo-1549078642-b2ba4bda0cdb?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=3&amp;w=144&amp;h=144"
-              alt="My profile"
-              class="w-6 h-6 rounded-full order-1"
-            />
-          </div>
-        </div>
-        <div class="chat-message">
-          <div class="flex items-end justify-end">
-            <div class="flex flex-col space-y-2  max-w-xs mx-2 order-1 items-end">
-              <div class="px-4 py-2 rounded-lg flex flex-col rounded-br-none border border-sky-200 bg-gradient-to-br from-sky-200  via-sky-200  to-sky-100 text-slate-600">
-                <span class="leading-tight text-sm">
-                  Your error message says permission denied, npm global installs
-                  must be given root privileges.
-                </span>
-              </div>
-            </div>
-
-            <img
-              src="https://images.unsplash.com/photo-1590031905470-a1a1feacbb0b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=3&amp;w=144&amp;h=144"
-              alt="My profile"
-              class="w-6 h-6 rounded-full order-2"
-            />
-          </div>
-        </div>
-        <div class="chat-message">
-          <div class="flex items-end justify-end">
-            <div class="flex flex-col space-y-2  max-w-xs mx-2 order-1 items-end">
-              <div class="px-4 py-2 rounded-lg flex flex-col rounded-br-none border border-sky-200 bg-gradient-to-br from-sky-200  via-sky-200  to-sky-100 text-slate-600">
-                <span class="leading-tight text-sm">
-                  Your error message says permission denied, npm global installs
-                  must be given root privileges.
-                </span>
-              </div>
-            </div>
-
-            <img
-              src="https://images.unsplash.com/photo-1590031905470-a1a1feacbb0b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=3&amp;w=144&amp;h=144"
-              alt="My profile"
-              class="w-6 h-6 rounded-full order-2"
-            />
-          </div>
-        </div>
-        <div class="chat-message">
-          <div class="flex items-end justify-end">
-            <div class="flex flex-col space-y-2  max-w-xs mx-2 order-1 items-end">
-              <div class="px-4 py-2 rounded-lg flex flex-col rounded-br-none border border-sky-200 bg-gradient-to-br from-sky-200  via-sky-200  to-sky-100 text-slate-600">
-                <span class="leading-tight text-sm">
-                  Your error message says permission denied, npm global installs
-                  must be given root privileges.
-                </span>
-              </div>
-            </div>
-
-            <img
-              src="https://images.unsplash.com/photo-1590031905470-a1a1feacbb0b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=3&amp;w=144&amp;h=144"
-              alt="My profile"
-              class="w-6 h-6 rounded-full order-2"
-            />
-          </div>
-        </div>
-        <div class="chat-message">
-          <div class="flex items-end justify-end">
-            <div class="flex flex-col space-y-2  max-w-xs mx-2 order-1 items-end">
-              <div class="px-4 py-2 rounded-lg flex flex-col rounded-br-none border border-sky-200 bg-gradient-to-br from-sky-200  via-sky-200  to-sky-100 text-slate-600">
-                <span class="leading-tight text-sm">
-                  Your error message says permission denied, npm global installs
-                  must be given root privileges.
-                </span>
-              </div>
-            </div>
-
-            <img
-              src="https://images.unsplash.com/photo-1590031905470-a1a1feacbb0b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=3&amp;w=144&amp;h=144"
-              alt="My profile"
-              class="w-6 h-6 rounded-full order-2"
-            />
-          </div>
-        </div>
       </div>
       <div class="shadow-inner">
         <Form />
